@@ -35,7 +35,9 @@ const Contact = () => {
                         rel='noreferrer' 
                         key={item.component}
                     >
-                        <item.component className="social-icons"/>
+                        <item.component 
+                            className="social-icons"   
+                        />
                     </motion.a>
                 ))}
             </div>

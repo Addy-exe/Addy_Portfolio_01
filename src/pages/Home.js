@@ -56,10 +56,10 @@ const Home = () => {
           className='description'
         > I am a recent BE in IT graduate with a passion for coding and an Individual who can write clean and
         optimized code. Focusing on full stack development with strong knowledge of frontend technologies, I am a dedicated learner 
-        and and excited to be part of a development team and help create new and effective solutions."
+        and excited to be part of a development team and help create new and effective solutions."
         </span>
         <a
-          href='https://github.com/Addy-exe'
+          href='https://drive.google.com/file/d/1YvqGiFxuYG5Hv6n2JyPiweNwpMnATxF8/view?usp=share_link'
           target="_blank"
           rel="noopener noreferrer"
         >

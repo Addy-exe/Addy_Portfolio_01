@@ -22,7 +22,7 @@ function App() {
       <div
         style={{
           background: darkmode ? '#0b0c10' : '',
-          color: darkmode ? '#c5c6c7' : '',
+          color: darkmode ? '#fff' : '',
         }}
       >
         <Navbar />
