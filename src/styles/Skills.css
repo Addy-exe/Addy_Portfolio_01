@@ -1,0 +1,93 @@
+.skills {
+    width: 100%;
+    min-height: 80vh;
+    /* background-color: lightpink; */
+}
+
+.skill-switch{
+    width: 140px;
+    height: 32px;
+    border-radius: 1rem;
+    background-color: rgb(158, 83, 53);
+    display: flex;
+    align-items: center;
+}
+
+.skillsbtn{
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+    border: none;
+}
+
+.toolsbtn{
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    border: none;
+}
+
+.toggle-btn{
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+.active{
+    background-color: transparent;
+}
+
+.container{
+    width: 60%;
+    min-height: 50%;
+    margin: auto;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4.2rem;
+}
+
+.skillbox{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.skillbox img {
+    width: 50px;
+}
+
+.skillbox span {
+    font-size: 14px;
+}
+
+.skillbox:hover{
+    transform: scale(1.1,1.1)
+}
+
+@media  screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+        margin-top: 3rem;
+        gap: 3.2rem;
+    }
+    .skillbox{
+        width: 68px;
+        height: 68px;
+    }
+    .skillbox img{
+        width: 32px;
+    }
+    .skillbox span{
+        font-size: 10px;
+    }
+
+}
