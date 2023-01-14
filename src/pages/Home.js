@@ -116,7 +116,7 @@ const Home = () => {
 
       <Link style={{
         position: 'absolute',
-        bottom: '6.8rem',
+        bottom: '12%',
         cursor: 'pointer'
       }}
         spy={true}
