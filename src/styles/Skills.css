@@ -39,14 +39,14 @@
 
 .container{
     width: 60%;
-    min-height: 50%;
+    height: 50%;
     margin: auto;
     margin-top: 3.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 4.2rem;
+    gap: 4.2rem; 
 }
 
 .skillbox{
@@ -74,10 +74,10 @@
 }
 
 @media  screen and (max-width: 500px) {
-    .container{
-        width: 100%;
-        margin-top: 3rem;
-        gap: 3.2rem;
+    .container {
+       width: 95%;
+       gap: 3rem;
+       height: fit-content;
     }
     .skillbox{
         width: 68px;
