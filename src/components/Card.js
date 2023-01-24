@@ -13,8 +13,8 @@ const Card = (props) => {
             className='card'
             data-aos="fade-right"
             data-aos-offset="300"
-            data-aos-delay="40"
-            data-aos-duration="800"
+            data-aos-delay="20"
+            data-aos-duration="700"
             data-aos-easing="ease-in-sine"
         >
             <img
@@ -24,7 +24,7 @@ const Card = (props) => {
             />
             <div className='details-container'>
                 <div className='details'>
-                    <h1 style={{ fontSize: '1.6rem', color: '#fff' }}>{title}</h1>
+                    <h2 style={{ fontSize: '1.6rem', color: '#fff' }}>{title}</h2>
                     <span>{desc}</span>
                     <div className='stack'>
                         {

@@ -1,8 +1,16 @@
 .skills {
     width: 100%;
-    min-height: 80vh;
-    /* background-color: lightpink; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.skills h1{
+    font-size: 2.4rem;
+    margin-top: 8%;
+}
+
 
 .skill-switch{
     width: 140px;
@@ -40,13 +48,12 @@
 .container{
     width: 60%;
     height: 50%;
-    margin: auto;
-    margin-top: 3.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 4.2rem; 
+    gap: 4.6rem;
+    margin-top: 6%
 }
 
 .skillbox{
@@ -59,6 +66,7 @@
     align-items: center;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    background: #000000;
 }
 
 .skillbox img {
@@ -67,6 +75,7 @@
 
 .skillbox span {
     font-size: 14px;
+    color: #fff;
 }
 
 .skillbox:hover{
@@ -78,6 +87,7 @@
        width: 95%;
        gap: 3rem;
        height: fit-content;
+       margin-top: 15%;
     }
     .skillbox{
         width: 68px;

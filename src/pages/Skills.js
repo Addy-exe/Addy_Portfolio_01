@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <div className='skills' id='skills'>
 
-      <h1 className='heading'>Skills</h1>
+      <h1>Skills</h1>
 
       {/* <div className='skill-switch'>
         <button 
@@ -34,11 +34,6 @@ const Skills = () => {
 
       <div
         className='container'
-        data-aos="fade-up"
-        data-aos-offset="100"
-        data-aos-delay="30"
-        data-aos-duration="800"
-        data-aos-easing="ease-in-out"
       >
         {logos.map((item) => (
           <SkillsBox 

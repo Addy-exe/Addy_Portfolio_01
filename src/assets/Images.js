@@ -6,7 +6,7 @@ const css = require('./logo/css.svg').default;
 const node = require('./logo/node.svg').default
 const mongodb = require('./logo/mongodb.svg').default;
 const cpp = require('./logo/cpp.svg').default;
-const github = require('./logo/github.svg').default;
+const github = require('./logo/github-white.svg').default;
 const material = require('./logo/material.svg').default;
 
 const Images = {
